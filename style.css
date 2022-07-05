@@ -1,0 +1,32 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+}
+.donate-header{
+ background-image: url(/images/donation13.jpg); 
+ background-repeat: no-repeat;
+ background-size:cover;
+ background-position: center;
+
+}
+.header-content{
+    
+    color: white;
+    padding: 20%;
+    text-align: center;
+}
+.header-content h1{
+    font-size: 50px;
+}
+.header-content h5{
+    font-size: 18px;
+    font-weight: 300;
+}
+.header-content a{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
