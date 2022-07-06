@@ -24,7 +24,7 @@ body{
 }
 .header-content a{
     text-decoration: none;
-    background-color: tomato;
+    background-image: linear-gradient(rgb(255, 84, 53), rgba(255, 126, 103, 0.863));
     padding: 10px 30px;
     border-radius: 5px;
     color: white;
@@ -37,7 +37,7 @@ body{
 .donate-area h1{
     color: black;
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 900;
 }
 .donate-area h5{
     color: gray;
@@ -71,11 +71,11 @@ body{
     outline: none;
     font-weight: 500;
 }
-.button-submit{
+#button-submit{
     display: block;
     margin: 20px auto;
     cursor: pointer;
-    background-color: tomato;
+    background-image: linear-gradient(rgb(255, 84, 53), rgba(255, 126, 103, 0.863));
     color: white;
     border: none;
     width: 150px;
@@ -83,4 +83,29 @@ body{
     border-radius: 5px;
     font-weight: 500;
     font-size: 18px;
+}
+.plan-area{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.plan-details{
+    width: 30%;
+    margin-left: 20px;
+    padding: 40px 20px;
+}
+.plan-details p{
+    color: rgb(90, 89, 89);
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.blue-bc-color{
+    background-color: rgba(86, 110, 219, 0.349);
+}
+.pink-bc-color{
+    background-color: rgba(243, 114, 189, 0.349);
+}
+.orange-bc-color{
+    background-color: rgba(243, 202, 114, 0.349);
 }
