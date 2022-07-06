@@ -19,7 +19,7 @@ body{
     font-size: 50px;
 }
 .header-content h5{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
 }
 .header-content a{
@@ -29,4 +29,58 @@ body{
     border-radius: 5px;
     color: white;
     font-weight: 600;
+}
+.donate-area{
+    text-align: center;
+    margin: 70px;
+}
+.donate-area h1{
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+}
+.donate-area h5{
+    color: gray;
+    font-weight: 300;
+    font-size: 16px;
+}
+.amount-select h3{
+    display: inline-block;
+    color: gray;
+    padding: 30px 20px;
+    margin: 0 20px;
+
+}
+.amount-select span h3{
+    border: 2px solid tomato;
+    border-radius: 5px;
+    color: tomato;
+    background-color: rgba(255, 99, 71, 0.178);
+}
+
+.donate-input{
+    margin-top: 30px;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+    width: 600px;
+    height: 30px;
+    color: gray;
+    outline: none;
+    font-weight: 500;
+}
+.button-submit{
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+    background-color: tomato;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
 }
