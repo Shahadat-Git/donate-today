@@ -51,14 +51,14 @@ body{
     margin: 0 20px;
 
 }
-.amount-select span h3{
+#selected-amount{
     border: 2px solid tomato;
     border-radius: 5px;
     color: tomato;
     background-color: rgba(255, 99, 71, 0.178);
 }
 
-.donate-input{
+#donate-input{
     margin-top: 30px;
     text-align: center;
     border-top: none;
@@ -88,7 +88,7 @@ body{
     display: flex;
     width: 80%;
     margin: auto;
-    padding-bottom: 150px;
+   
 }
 .plan-details{
     width: 30%;
@@ -111,9 +111,47 @@ body{
     background-color: rgba(243, 202, 114, 0.349);
 }
 
-
-
-
+.updates-area{
+    text-align: center;
+}
+.updates-area h1{
+    color: black;
+    font-size: 40px;
+    font-weight: 900;
+}
+.updates-area h5{
+    color: gray;
+    font-weight: 300;
+    font-size: 16px;
+}
+#form-area{
+    padding: 60px 0;
+    margin: 0 20%;
+    background-color: rgba(243, 202, 114, 0.349);
+    border-radius: 5px;
+}
+#email-box{
+    outline: none;
+    border: none;
+    width: 220px;
+    padding: 14px;
+    font-weight: 600;
+    background-color: rgba(190, 184, 184, 0.637);
+    border-radius: 20px 0 0 20px;
+}
+#subscribe-button{
+    position: relative;
+    left: -5px;
+    cursor: pointer;
+    background-image: linear-gradient(rgb(255, 84, 53), rgba(255, 126, 103, 0.863));
+    color: white;
+    border: none;
+    width: 140px;
+    padding: 12px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 0 170px 5px 0;
+}
 #footer{
     background-color: black;
     text-align: center;
