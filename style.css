@@ -65,7 +65,7 @@ body{
     border-left: none;
     border-right: none;
     border-bottom: 1px solid gray;
-    width: 600px;
+    width: 60%;
     height: 30px;
     color: gray;
     outline: none;
@@ -149,6 +149,12 @@ body{
     border-radius: 5px;
     margin-bottom: 100px;
 }
+.subscribe-box{
+    display: flex;
+    width: 50%;
+    margin: auto;
+
+}
 #email-box{
     outline: none;
     border: none;
@@ -159,8 +165,6 @@ body{
     border-radius: 20px 0 0 20px;
 }
 #subscribe-button{
-    position: relative;
-    left: -5px;
     cursor: pointer;
     background-image: linear-gradient(rgb(255, 84, 53), rgba(255, 126, 103, 0.863));
     color: white;
@@ -170,6 +174,7 @@ body{
     font-weight: 500;
     font-size: 18px;
     border-radius: 0 170px 5px 0;
+    margin-left: -5px;
 }
 #footer{
     background-color: black;
