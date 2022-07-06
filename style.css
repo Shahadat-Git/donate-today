@@ -88,6 +88,7 @@ body{
     display: flex;
     width: 80%;
     margin: auto;
+    padding-bottom: 150px;
 }
 .plan-details{
     width: 30%;
@@ -108,4 +109,23 @@ body{
 }
 .orange-bc-color{
     background-color: rgba(243, 202, 114, 0.349);
+}
+
+
+
+
+#footer{
+    background-color: black;
+    text-align: center;
+    padding: 17px 0;
+}
+#footer h3{
+    color: rgb(250, 109, 84);
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+#footer p{
+    color: gray;
+    font-size: 14px;
 }
