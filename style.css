@@ -137,8 +137,9 @@ body{
     color: white;
 }
 #team-member-images-size{
-    height: 200px;
-    width: 240px;
+    /* height: 200px;
+    width: 240px; */
+    width: 80%;
 }
 
 #form-area{
