@@ -47,6 +47,7 @@ body{
 .amount-select h3{
     display: inline-block;
     color: gray;
+    background-color: rgba(128, 128, 128, 0.103);
     padding: 30px 20px;
     margin: 0 20px;
 
